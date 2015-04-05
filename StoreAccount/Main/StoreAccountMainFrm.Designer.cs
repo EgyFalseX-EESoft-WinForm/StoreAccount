@@ -115,7 +115,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.MdiWindowListItem = this.windowsMenu;
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(934, 24);
+            this.menuStrip.Size = new System.Drawing.Size(796, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "GeneralmenuStrip";
             // 
@@ -127,14 +127,14 @@
             this.fileMenu.Image = global::StoreAccount.Properties.Resources.File;
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
             this.fileMenu.Name = "fileMenu";
-            this.fileMenu.Size = new System.Drawing.Size(61, 20);
+            this.fileMenu.Size = new System.Drawing.Size(64, 20);
             this.fileMenu.Text = "ملـــف";
             // 
             // restConnectionToolStripMenuItem
             // 
             this.restConnectionToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Connection;
             this.restConnectionToolStripMenuItem.Name = "restConnectionToolStripMenuItem";
-            this.restConnectionToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.restConnectionToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.restConnectionToolStripMenuItem.Text = "ألغاء اتصال قاعدة البيانات";
             this.restConnectionToolStripMenuItem.Visible = false;
             this.restConnectionToolStripMenuItem.Click += new System.EventHandler(this.restConnectionToolStripMenuItem_Click);
@@ -143,7 +143,7 @@
             // 
             this.exitToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Exit;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.exitToolStripMenuItem.Text = "خروج";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
@@ -155,7 +155,7 @@
             this.generalCodesToolStripMenuItem});
             this.CodeMenu.Image = global::StoreAccount.Properties.Resources.Code;
             this.CodeMenu.Name = "CodeMenu";
-            this.CodeMenu.Size = new System.Drawing.Size(57, 20);
+            this.CodeMenu.Size = new System.Drawing.Size(59, 20);
             this.CodeMenu.Text = "اكواد";
             // 
             // storeCodesToolStripMenuItem
@@ -168,14 +168,14 @@
             this.billPayTypeToolStripMenuItem});
             this.storeCodesToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorStore;
             this.storeCodesToolStripMenuItem.Name = "storeCodesToolStripMenuItem";
-            this.storeCodesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.storeCodesToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.storeCodesToolStripMenuItem.Text = "اكواد المخازن";
             // 
             // EditorsalesUnitToolStripMenuItem
             // 
             this.EditorsalesUnitToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.EditorsalesUnit;
             this.EditorsalesUnitToolStripMenuItem.Name = "EditorsalesUnitToolStripMenuItem";
-            this.EditorsalesUnitToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.EditorsalesUnitToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.EditorsalesUnitToolStripMenuItem.Text = "الوحـــــــدات";
             this.EditorsalesUnitToolStripMenuItem.Visible = false;
             this.EditorsalesUnitToolStripMenuItem.Click += new System.EventHandler(this.EditorsalesUnitToolStripMenuItem_Click);
@@ -184,7 +184,7 @@
             // 
             this.editorStoreToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorStore;
             this.editorStoreToolStripMenuItem.Name = "editorStoreToolStripMenuItem";
-            this.editorStoreToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.editorStoreToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.editorStoreToolStripMenuItem.Text = "المخـازن";
             this.editorStoreToolStripMenuItem.Visible = false;
             this.editorStoreToolStripMenuItem.Click += new System.EventHandler(this.editorStoreToolStripMenuItem_Click);
@@ -193,7 +193,7 @@
             // 
             this.editorCDCategoriesToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorCDCategories;
             this.editorCDCategoriesToolStripMenuItem.Name = "editorCDCategoriesToolStripMenuItem";
-            this.editorCDCategoriesToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.editorCDCategoriesToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.editorCDCategoriesToolStripMenuItem.Text = "فئــات الاصناف";
             this.editorCDCategoriesToolStripMenuItem.Visible = false;
             this.editorCDCategoriesToolStripMenuItem.Click += new System.EventHandler(this.editorCategoriesToolStripMenuItem_Click);
@@ -202,7 +202,7 @@
             // 
             this.EditorCompaniesToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.EditorCompanies;
             this.EditorCompaniesToolStripMenuItem.Name = "EditorCompaniesToolStripMenuItem";
-            this.EditorCompaniesToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.EditorCompaniesToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.EditorCompaniesToolStripMenuItem.Text = "الشركات المنتجــه";
             this.EditorCompaniesToolStripMenuItem.Visible = false;
             this.EditorCompaniesToolStripMenuItem.Click += new System.EventHandler(this.EditorCompaniesToolStripMenuItem_Click);
@@ -211,7 +211,7 @@
             // 
             this.billPayTypeToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.billPayType;
             this.billPayTypeToolStripMenuItem.Name = "billPayTypeToolStripMenuItem";
-            this.billPayTypeToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.billPayTypeToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.billPayTypeToolStripMenuItem.Text = "طرق الدفع";
             this.billPayTypeToolStripMenuItem.Visible = false;
             this.billPayTypeToolStripMenuItem.Click += new System.EventHandler(this.billPayTypeToolStripMenuItem_Click);
@@ -225,14 +225,14 @@
             this.accTreeOptionsFrmToolStripMenuItem});
             this.accountCodesToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.banks;
             this.accountCodesToolStripMenuItem.Name = "accountCodesToolStripMenuItem";
-            this.accountCodesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.accountCodesToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.accountCodesToolStripMenuItem.Text = "اكواد الحسابات";
             // 
             // editorYearToolStripMenuItem
             // 
             this.editorYearToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorYear;
             this.editorYearToolStripMenuItem.Name = "editorYearToolStripMenuItem";
-            this.editorYearToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.editorYearToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.editorYearToolStripMenuItem.Text = "السنوات الماليه";
             this.editorYearToolStripMenuItem.Visible = false;
             this.editorYearToolStripMenuItem.Click += new System.EventHandler(this.editorYearToolStripMenuItem_Click);
@@ -241,7 +241,7 @@
             // 
             this.editorAccountNatureToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorAccountNature;
             this.editorAccountNatureToolStripMenuItem.Name = "editorAccountNatureToolStripMenuItem";
-            this.editorAccountNatureToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.editorAccountNatureToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.editorAccountNatureToolStripMenuItem.Text = "طبيعة الحسابات";
             this.editorAccountNatureToolStripMenuItem.Visible = false;
             this.editorAccountNatureToolStripMenuItem.Click += new System.EventHandler(this.editorAccountNatureToolStripMenuItem_Click);
@@ -250,7 +250,7 @@
             // 
             this.banksToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.banks;
             this.banksToolStripMenuItem.Name = "banksToolStripMenuItem";
-            this.banksToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.banksToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.banksToolStripMenuItem.Text = "البنـــوك";
             this.banksToolStripMenuItem.Visible = false;
             this.banksToolStripMenuItem.Click += new System.EventHandler(this.banksToolStripMenuItem_Click);
@@ -259,7 +259,7 @@
             // 
             this.accTreeOptionsFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.accTreeOptionsFrm;
             this.accTreeOptionsFrmToolStripMenuItem.Name = "accTreeOptionsFrmToolStripMenuItem";
-            this.accTreeOptionsFrmToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.accTreeOptionsFrmToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.accTreeOptionsFrmToolStripMenuItem.Text = "خيارات شجرة الحسابات";
             this.accTreeOptionsFrmToolStripMenuItem.Visible = false;
             this.accTreeOptionsFrmToolStripMenuItem.Click += new System.EventHandler(this.accTreeOptionsFrmToolStripMenuItem_Click);
@@ -270,14 +270,14 @@
             this.editJobToolStripMenuItem});
             this.generalCodesToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Code;
             this.generalCodesToolStripMenuItem.Name = "generalCodesToolStripMenuItem";
-            this.generalCodesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.generalCodesToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.generalCodesToolStripMenuItem.Text = "اكواد عامه";
             // 
             // editJobToolStripMenuItem
             // 
             this.editJobToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editJobTool;
             this.editJobToolStripMenuItem.Name = "editJobToolStripMenuItem";
-            this.editJobToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.editJobToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.editJobToolStripMenuItem.Text = "الوظائف";
             this.editJobToolStripMenuItem.Visible = false;
             this.editJobToolStripMenuItem.Click += new System.EventHandler(this.editJobToolStripMenuItem_Click);
@@ -290,7 +290,7 @@
             this.dataGeneralToolStripMenuItem});
             this.dataToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Data;
             this.dataToolStripMenuItem.Name = "dataToolStripMenuItem";
-            this.dataToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.dataToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.dataToolStripMenuItem.Text = "ادخال بيانات";
             // 
             // dataStoreToolStripMenuItem
@@ -304,14 +304,14 @@
             this.DataSellBillBarCodeFrmToolStripMenuItem});
             this.dataStoreToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorStore;
             this.dataStoreToolStripMenuItem.Name = "dataStoreToolStripMenuItem";
-            this.dataStoreToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.dataStoreToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.dataStoreToolStripMenuItem.Text = "بيانات المخازن";
             // 
             // editorCustomerToolStripMenuItem
             // 
             this.editorCustomerToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorCustomer;
             this.editorCustomerToolStripMenuItem.Name = "editorCustomerToolStripMenuItem";
-            this.editorCustomerToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.editorCustomerToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.editorCustomerToolStripMenuItem.Text = "بيانات العملاء";
             this.editorCustomerToolStripMenuItem.Visible = false;
             this.editorCustomerToolStripMenuItem.Click += new System.EventHandler(this.editorCustomerToolStripMenuItem_Click);
@@ -320,7 +320,7 @@
             // 
             this.editorSuppliersToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editorSuppliers;
             this.editorSuppliersToolStripMenuItem.Name = "editorSuppliersToolStripMenuItem";
-            this.editorSuppliersToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.editorSuppliersToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.editorSuppliersToolStripMenuItem.Text = "بيانات الموردين";
             this.editorSuppliersToolStripMenuItem.Visible = false;
             this.editorSuppliersToolStripMenuItem.Click += new System.EventHandler(this.editorSuppliersToolStripMenuItem_Click);
@@ -329,7 +329,7 @@
             // 
             this.dataAsnafFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.dataAsnafFrm;
             this.dataAsnafFrmToolStripMenuItem.Name = "dataAsnafFrmToolStripMenuItem";
-            this.dataAsnafFrmToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.dataAsnafFrmToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.dataAsnafFrmToolStripMenuItem.Text = "بيانات الاصناف";
             this.dataAsnafFrmToolStripMenuItem.Visible = false;
             this.dataAsnafFrmToolStripMenuItem.Click += new System.EventHandler(this.dataAsnafFrmToolStripMenuItem_Click);
@@ -338,7 +338,7 @@
             // 
             this.dataTblPricelistsFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.dataTblPricelistsFrm;
             this.dataTblPricelistsFrmToolStripMenuItem.Name = "dataTblPricelistsFrmToolStripMenuItem";
-            this.dataTblPricelistsFrmToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.dataTblPricelistsFrmToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.dataTblPricelistsFrmToolStripMenuItem.Text = "قائمه الاسعار";
             this.dataTblPricelistsFrmToolStripMenuItem.Visible = false;
             this.dataTblPricelistsFrmToolStripMenuItem.Click += new System.EventHandler(this.dataTblPricelistsFrmToolStripMenuItem_Click);
@@ -347,7 +347,7 @@
             // 
             this.dataBillFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.dataBillFrm;
             this.dataBillFrmToolStripMenuItem.Name = "dataBillFrmToolStripMenuItem";
-            this.dataBillFrmToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.dataBillFrmToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.dataBillFrmToolStripMenuItem.Text = "فاتورة المشتريات";
             this.dataBillFrmToolStripMenuItem.Visible = false;
             this.dataBillFrmToolStripMenuItem.Click += new System.EventHandler(this.DataBillFrmToolStripMenuItem_Click);
@@ -356,7 +356,7 @@
             // 
             this.DataSellBillBarCodeFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.DataSellBillBarCodeFrm;
             this.DataSellBillBarCodeFrmToolStripMenuItem.Name = "DataSellBillBarCodeFrmToolStripMenuItem";
-            this.DataSellBillBarCodeFrmToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.DataSellBillBarCodeFrmToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.DataSellBillBarCodeFrmToolStripMenuItem.Text = "فاتورة المبيعات بالباركود";
             this.DataSellBillBarCodeFrmToolStripMenuItem.Visible = false;
             this.DataSellBillBarCodeFrmToolStripMenuItem.Click += new System.EventHandler(this.DataSellBillBarCodeFrmToolStripMenuItem_Click);
@@ -368,14 +368,14 @@
             this.constraintsDailyToolStripMenuItem});
             this.dataAccountToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.banks;
             this.dataAccountToolStripMenuItem.Name = "dataAccountToolStripMenuItem";
-            this.dataAccountToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.dataAccountToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.dataAccountToolStripMenuItem.Text = "بيانات الحسابات";
             // 
             // accountsTypesToolStripMenuItem
             // 
             this.accountsTypesToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.accountsTypes;
             this.accountsTypesToolStripMenuItem.Name = "accountsTypesToolStripMenuItem";
-            this.accountsTypesToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.accountsTypesToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.accountsTypesToolStripMenuItem.Text = "دليل الحسابات";
             this.accountsTypesToolStripMenuItem.Visible = false;
             this.accountsTypesToolStripMenuItem.Click += new System.EventHandler(this.accountsTypesToolStripMenuItem_Click);
@@ -384,7 +384,7 @@
             // 
             this.constraintsDailyToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.constraintsDaily;
             this.constraintsDailyToolStripMenuItem.Name = "constraintsDailyToolStripMenuItem";
-            this.constraintsDailyToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.constraintsDailyToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.constraintsDailyToolStripMenuItem.Text = "القيود اليوميــه";
             this.constraintsDailyToolStripMenuItem.Visible = false;
             this.constraintsDailyToolStripMenuItem.Click += new System.EventHandler(this.constraintsDailyToolStripMenuItem_Click);
@@ -395,14 +395,14 @@
             this.editEmpToolStripMenuItem});
             this.dataGeneralToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Code;
             this.dataGeneralToolStripMenuItem.Name = "dataGeneralToolStripMenuItem";
-            this.dataGeneralToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.dataGeneralToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.dataGeneralToolStripMenuItem.Text = "بيانات عامه";
             // 
             // editEmpToolStripMenuItem
             // 
             this.editEmpToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.editEmp;
             this.editEmpToolStripMenuItem.Name = "editEmpToolStripMenuItem";
-            this.editEmpToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.editEmpToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.editEmpToolStripMenuItem.Text = "العاملون";
             this.editEmpToolStripMenuItem.Visible = false;
             this.editEmpToolStripMenuItem.Click += new System.EventHandler(this.editEmpToolStripMenuItem_Click);
@@ -416,14 +416,14 @@
             this.qryBarcodeFrmToolStripMenuItem});
             this.queryToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Queries;
             this.queryToolStripMenuItem.Name = "queryToolStripMenuItem";
-            this.queryToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
+            this.queryToolStripMenuItem.Size = new System.Drawing.Size(91, 20);
             this.queryToolStripMenuItem.Text = "استعلامــات";
             // 
             // qrysellsFrmToolStripMenuItem
             // 
             this.qrysellsFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Qry;
             this.qrysellsFrmToolStripMenuItem.Name = "qrysellsFrmToolStripMenuItem";
-            this.qrysellsFrmToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.qrysellsFrmToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.qrysellsFrmToolStripMenuItem.Text = "استعلام المبيعات";
             this.qrysellsFrmToolStripMenuItem.Visible = false;
             this.qrysellsFrmToolStripMenuItem.Click += new System.EventHandler(this.qrysellsFrmToolStripMenuItem_Click);
@@ -432,7 +432,7 @@
             // 
             this.qryQryBuysFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Qry;
             this.qryQryBuysFrmToolStripMenuItem.Name = "qryQryBuysFrmToolStripMenuItem";
-            this.qryQryBuysFrmToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.qryQryBuysFrmToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.qryQryBuysFrmToolStripMenuItem.Text = "استعلام المشتريات";
             this.qryQryBuysFrmToolStripMenuItem.Visible = false;
             this.qryQryBuysFrmToolStripMenuItem.Click += new System.EventHandler(this.qryQryBuysFrmToolStripMenuItem_Click);
@@ -441,7 +441,7 @@
             // 
             this.qryItemAvailabilityFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Qry;
             this.qryItemAvailabilityFrmToolStripMenuItem.Name = "qryItemAvailabilityFrmToolStripMenuItem";
-            this.qryItemAvailabilityFrmToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.qryItemAvailabilityFrmToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.qryItemAvailabilityFrmToolStripMenuItem.Text = "الاصناف في المخزن";
             this.qryItemAvailabilityFrmToolStripMenuItem.Visible = false;
             this.qryItemAvailabilityFrmToolStripMenuItem.Click += new System.EventHandler(this.qryItemAvailabilityFrmToolStripMenuItem_Click);
@@ -450,7 +450,7 @@
             // 
             this.qryBarcodeFrmToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Qry;
             this.qryBarcodeFrmToolStripMenuItem.Name = "qryBarcodeFrmToolStripMenuItem";
-            this.qryBarcodeFrmToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.qryBarcodeFrmToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.qryBarcodeFrmToolStripMenuItem.Text = "طباعة الباركود";
             this.qryBarcodeFrmToolStripMenuItem.Visible = false;
             this.qryBarcodeFrmToolStripMenuItem.Click += new System.EventHandler(this.qryBarcodeFrmToolStripMenuItem_Click);
@@ -463,28 +463,28 @@
             this.deployRptToolStripMenuItem});
             this.printingToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Print1;
             this.printingToolStripMenuItem.Name = "printingToolStripMenuItem";
-            this.printingToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
+            this.printingToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
             this.printingToolStripMenuItem.Text = "طبــاعة تقاريــر";
             // 
             // rptCol1ToolStripMenuItem
             // 
             this.rptCol1ToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.ReportGroup;
             this.rptCol1ToolStripMenuItem.Name = "rptCol1ToolStripMenuItem";
-            this.rptCol1ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.rptCol1ToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.rptCol1ToolStripMenuItem.Text = "مجموعه 1";
             // 
             // rptCol2ToolStripMenuItem
             // 
             this.rptCol2ToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.ReportGroup;
             this.rptCol2ToolStripMenuItem.Name = "rptCol2ToolStripMenuItem";
-            this.rptCol2ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.rptCol2ToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.rptCol2ToolStripMenuItem.Text = "مجموعه 2";
             // 
             // deployRptToolStripMenuItem
             // 
             this.deployRptToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.DeployRpt;
             this.deployRptToolStripMenuItem.Name = "deployRptToolStripMenuItem";
-            this.deployRptToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.deployRptToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.deployRptToolStripMenuItem.Text = "تنصيب التقارير";
             this.deployRptToolStripMenuItem.Visible = false;
             this.deployRptToolStripMenuItem.Click += new System.EventHandler(this.deployRptToolStripMenuItem_Click);
@@ -505,7 +505,7 @@
             // 
             this.prmEditorRoleToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Roles;
             this.prmEditorRoleToolStripMenuItem.Name = "prmEditorRoleToolStripMenuItem";
-            this.prmEditorRoleToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.prmEditorRoleToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.prmEditorRoleToolStripMenuItem.Text = "السماحيات";
             this.prmEditorRoleToolStripMenuItem.Visible = false;
             this.prmEditorRoleToolStripMenuItem.Click += new System.EventHandler(this.prmEditorRoleToolStripMenuItem_Click);
@@ -514,7 +514,7 @@
             // 
             this.prmEditorRoleMenuToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.RoleDetial;
             this.prmEditorRoleMenuToolStripMenuItem.Name = "prmEditorRoleMenuToolStripMenuItem";
-            this.prmEditorRoleMenuToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.prmEditorRoleMenuToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.prmEditorRoleMenuToolStripMenuItem.Text = "محتويات الصلاحيات";
             this.prmEditorRoleMenuToolStripMenuItem.Visible = false;
             this.prmEditorRoleMenuToolStripMenuItem.Click += new System.EventHandler(this.prmEditorRoleMenuToolStripMenuItem_Click);
@@ -523,7 +523,7 @@
             // 
             this.PremEditorUserToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Users;
             this.PremEditorUserToolStripMenuItem.Name = "PremEditorUserToolStripMenuItem";
-            this.PremEditorUserToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.PremEditorUserToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.PremEditorUserToolStripMenuItem.Text = "المستخدمين";
             this.PremEditorUserToolStripMenuItem.Visible = false;
             this.PremEditorUserToolStripMenuItem.Click += new System.EventHandler(this.PremEditorUserToolStripMenuItem_Click);
@@ -532,7 +532,7 @@
             // 
             this.premEditorUserInRoleToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.UserRoles;
             this.premEditorUserInRoleToolStripMenuItem.Name = "premEditorUserInRoleToolStripMenuItem";
-            this.premEditorUserInRoleToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.premEditorUserInRoleToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.premEditorUserInRoleToolStripMenuItem.Text = "سماحيات المستخدمين";
             this.premEditorUserInRoleToolStripMenuItem.Visible = false;
             this.premEditorUserInRoleToolStripMenuItem.Click += new System.EventHandler(this.premEditorUserInRoleToolStripMenuItem_Click);
@@ -543,7 +543,7 @@
             this.statusBarToolStripMenuItem});
             this.viewMenu.Image = global::StoreAccount.Properties.Resources.View;
             this.viewMenu.Name = "viewMenu";
-            this.viewMenu.Size = new System.Drawing.Size(61, 20);
+            this.viewMenu.Size = new System.Drawing.Size(62, 20);
             this.viewMenu.Text = "عرض";
             // 
             // statusBarToolStripMenuItem
@@ -563,7 +563,7 @@
             this.skinsToolStripMenuItem});
             this.toolsMenu.Image = global::StoreAccount.Properties.Resources.Tools;
             this.toolsMenu.Name = "toolsMenu";
-            this.toolsMenu.Size = new System.Drawing.Size(59, 20);
+            this.toolsMenu.Size = new System.Drawing.Size(64, 20);
             this.toolsMenu.Text = "ادوات";
             // 
             // optionsToolStripMenuItem
@@ -593,14 +593,14 @@
             this.arrangeIconsToolStripMenuItem});
             this.windowsMenu.Image = global::StoreAccount.Properties.Resources.Window;
             this.windowsMenu.Name = "windowsMenu";
-            this.windowsMenu.Size = new System.Drawing.Size(56, 20);
+            this.windowsMenu.Size = new System.Drawing.Size(60, 20);
             this.windowsMenu.Text = "نوافذ";
             // 
             // cascadeToolStripMenuItem
             // 
             this.cascadeToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.WindowCascade;
             this.cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
-            this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.cascadeToolStripMenuItem.Text = "ترتيب النوافذ";
             this.cascadeToolStripMenuItem.Click += new System.EventHandler(this.CascadeToolStripMenuItem_Click);
             // 
@@ -608,7 +608,7 @@
             // 
             this.tileVerticalToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.WindowVertical;
             this.tileVerticalToolStripMenuItem.Name = "tileVerticalToolStripMenuItem";
-            this.tileVerticalToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.tileVerticalToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.tileVerticalToolStripMenuItem.Text = "العناوين رأسي";
             this.tileVerticalToolStripMenuItem.Click += new System.EventHandler(this.TileVerticalToolStripMenuItem_Click);
             // 
@@ -616,7 +616,7 @@
             // 
             this.tileHorizontalToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.WindowHorizontal;
             this.tileHorizontalToolStripMenuItem.Name = "tileHorizontalToolStripMenuItem";
-            this.tileHorizontalToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.tileHorizontalToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.tileHorizontalToolStripMenuItem.Text = "العناوين افقي";
             this.tileHorizontalToolStripMenuItem.Click += new System.EventHandler(this.TileHorizontalToolStripMenuItem_Click);
             // 
@@ -624,7 +624,7 @@
             // 
             this.closeAllToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Close;
             this.closeAllToolStripMenuItem.Name = "closeAllToolStripMenuItem";
-            this.closeAllToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.closeAllToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.closeAllToolStripMenuItem.Text = "اغلاق الكل";
             this.closeAllToolStripMenuItem.Click += new System.EventHandler(this.CloseAllToolStripMenuItem_Click);
             // 
@@ -632,7 +632,7 @@
             // 
             this.arrangeIconsToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.Window;
             this.arrangeIconsToolStripMenuItem.Name = "arrangeIconsToolStripMenuItem";
-            this.arrangeIconsToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.arrangeIconsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.arrangeIconsToolStripMenuItem.Text = "ترتيب الايكون";
             this.arrangeIconsToolStripMenuItem.Click += new System.EventHandler(this.ArrangeIconsToolStripMenuItem_Click);
             // 
@@ -645,14 +645,14 @@
             this.aboutToolStripMenuItem});
             this.helpMenu.Image = global::StoreAccount.Properties.Resources.Help;
             this.helpMenu.Name = "helpMenu";
-            this.helpMenu.Size = new System.Drawing.Size(70, 20);
+            this.helpMenu.Size = new System.Drawing.Size(74, 20);
             this.helpMenu.Text = "مساعده";
             // 
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
             this.contentsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F1)));
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.contentsToolStripMenuItem.Text = "المحتويات";
             this.contentsToolStripMenuItem.Visible = false;
             // 
@@ -661,7 +661,7 @@
             this.indexToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("indexToolStripMenuItem.Image")));
             this.indexToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.indexToolStripMenuItem.Text = "فهرس";
             this.indexToolStripMenuItem.Visible = false;
             // 
@@ -670,7 +670,7 @@
             this.searchToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("searchToolStripMenuItem.Image")));
             this.searchToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.searchToolStripMenuItem.Text = "بحث";
             this.searchToolStripMenuItem.Visible = false;
             // 
@@ -678,7 +678,7 @@
             // 
             this.aboutToolStripMenuItem.Image = global::StoreAccount.Properties.Resources.EESoft;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.aboutToolStripMenuItem.Text = "عن البرنامج";
             this.aboutToolStripMenuItem.Visible = false;
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
@@ -687,9 +687,9 @@
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 590);
+            this.statusStrip.Location = new System.Drawing.Point(0, 551);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(934, 22);
+            this.statusStrip.Size = new System.Drawing.Size(796, 22);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -710,9 +710,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::StoreAccount.Properties.Resources.ECCM_BG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(934, 612);
+            this.ClientSize = new System.Drawing.Size(796, 573);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreAccount", "StoreAccount\StoreAccount.csproj", "{7DCCAD4E-9ADA-4588-AA91-A86F583F2996}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "StoreAccount Setup", "StoreAccount Setup\StoreAccount Setup.vdproj", "{6CA91EF0-9F37-4BD2-A6CF-D39FCDFBB351}"

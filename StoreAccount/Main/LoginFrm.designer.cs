@@ -53,7 +53,7 @@
             this.TxtUserName.Location = new System.Drawing.Point(18, 17);
             this.TxtUserName.Name = "TxtUserName";
             this.TxtUserName.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.TxtUserName.Size = new System.Drawing.Size(182, 21);
+            this.TxtUserName.Size = new System.Drawing.Size(182, 22);
             this.TxtUserName.TabIndex = 0;
             this.TxtUserName.EditValueChanged += new System.EventHandler(this.text_EditValueChanged);
             // 
@@ -82,7 +82,7 @@
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.TxtPassword.Properties.PasswordChar = '*';
-            this.TxtPassword.Size = new System.Drawing.Size(182, 21);
+            this.TxtPassword.Size = new System.Drawing.Size(182, 22);
             this.TxtPassword.TabIndex = 1;
             this.TxtPassword.EditValueChanged += new System.EventHandler(this.text_EditValueChanged);
             // 
@@ -101,10 +101,8 @@
             this.AcceptButton = this.BtnEnter;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayoutStore = System.Windows.Forms.ImageLayout.Tile;
-            this.BackgroundImageStore = global::StoreAccount.Properties.Resources.Login_Back;
             this.CancelButton = this.BtnEnd;
-            this.ClientSize = new System.Drawing.Size(292, 142);
+            this.ClientSize = new System.Drawing.Size(288, 138);
             this.ControlBox = false;
             this.Controls.Add(this.BtnEnd);
             this.Controls.Add(this.BtnEnter);
